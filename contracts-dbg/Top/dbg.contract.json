@@ -1,0 +1,7 @@
+{
+    "solc": "0.8.27",
+    "sourceDirs": [
+        "."
+    ],
+    "entryPoint": "DbgEntry"
+}

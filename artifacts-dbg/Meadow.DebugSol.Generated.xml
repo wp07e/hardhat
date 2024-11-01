@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Meadow.DebugSol.Generated</name>
+    </assembly>
+    <members>
+        <member name="T:Meadow.DebugSol.Generated.Ownable">
+            <summary>From file @openzeppelin/contracts/access/Ownable.sol<para/> <para/>Contract module which provides a basic access control mechanism, where there is an account (an owner) that can be granted exclusive access to specific functions. By default, the owner account will be the one that deploys the contract. This can later be changed with {transferOwnership}. This module is used through inheritance. It will make available the modifier `onlyOwner`, which can be applied to your functions to restrict their use to the owner.</summary>
+        </member>
+        <member name="M:Meadow.DebugSol.Generated.Ownable.Deploy(Meadow.JsonRpc.Client.IJsonRpcClient,Meadow.JsonRpc.Types.TransactionParams,System.Nullable{Meadow.Core.EthTypes.Address})">
+            <summary>
+            Deploys the contract.  <para/>Contract module which provides a basic access control mechanism, where there is an account (an owner) that can be granted exclusive access to specific functions. By default, the owner account will be the one that deploys the contract. This can later be changed with {transferOwnership}. This module is used through inheritance. It will make available the modifier `onlyOwner`, which can be applied to your functions to restrict their use to the owner. <para/>
+            </summary>
+            <param name="rpcClient">The RPC client to be used for this contract instance.</param>
+            <param name="defaultFromAccount">If null then the first account returned by eth_accounts will be used.</param>
+            <returns>An contract instance pointed at the deployed contract address.</returns>
+        </member>
+        <member name="M:Meadow.DebugSol.Generated.Ownable.New(Meadow.JsonRpc.Client.IJsonRpcClient,Meadow.JsonRpc.Types.TransactionParams,System.Nullable{Meadow.Core.EthTypes.Address})">
+            <summary>
+            Deploys the contract.  <para/>Contract module which provides a basic access control mechanism, where there is an account (an owner) that can be granted exclusive access to specific functions. By default, the owner account will be the one that deploys the contract. This can later be changed with {transferOwnership}. This module is used through inheritance. It will make available the modifier `onlyOwner`, which can be applied to your functions to restrict their use to the owner. <para/>
+            </summary>
+            <param name="rpcClient">The RPC client to be used for this contract instance.</param>
+            <param name="defaultFromAccount">If null then the first account returned by eth_accounts will be used.</param>
+            <returns>An contract instance pointed at the deployed contract address.</returns>
+        </member>
+        <member name="M:Meadow.DebugSol.Generated.Ownable.owner">
+            <summary>Returns the address of the current owner. <para/>Returns <c>address</c></summary>
+        </member>
+        <member name="M:Meadow.DebugSol.Generated.Ownable.renounceOwnership">
+            <summary>Leaves the contract without owner. It will not be possible to call `onlyOwner` functions. Can only be called by the current owner. NOTE: Renouncing ownership will leave the contract without an owner, thereby disabling any functionality that is only available to the owner.</summary>
+        </member>
+        <member name="M:Meadow.DebugSol.Generated.Ownable.transferOwnership(Meadow.Core.EthTypes.Address)">
+            <summary>Transfers ownership of the contract to a new account (`newOwner`). Can only be called by the current owner.</summary>
+            <param name="newOwner"><c>address</c></param>
+        </member>
+        <member name="P:Meadow.DebugSol.Generated.Ownable.FallbackFunction">
+            <summary>The contract fallback function. <para/></summary>
+        </member>
+        <member name="T:Meadow.DebugSol.Generated.Context">
+            <summary>From file @openzeppelin/contracts/utils/Context.sol<para/> <para/>Provides information about the current execution context, including the sender of the transaction and its data. While these are generally available via msg.sender and msg.data, they should not be accessed in such a direct manner, since when dealing with meta-transactions the account sending and paying for execution may not be the actual sender (as far as an application is concerned). This contract is only required for intermediate, library-like contracts.</summary>
+        </member>
+        <member name="M:Meadow.DebugSol.Generated.Context.Deploy(Meadow.JsonRpc.Client.IJsonRpcClient,Meadow.JsonRpc.Types.TransactionParams,System.Nullable{Meadow.Core.EthTypes.Address})">
+            <summary>
+            Deploys the contract.  <para/>Provides information about the current execution context, including the sender of the transaction and its data. While these are generally available via msg.sender and msg.data, they should not be accessed in such a direct manner, since when dealing with meta-transactions the account sending and paying for execution may not be the actual sender (as far as an application is concerned). This contract is only required for intermediate, library-like contracts. <para/>
+            </summary>
+            <param name="rpcClient">The RPC client to be used for this contract instance.</param>
+            <param name="defaultFromAccount">If null then the first account returned by eth_accounts will be used.</param>
+            <returns>An contract instance pointed at the deployed contract address.</returns>
+        </member>
+        <member name="M:Meadow.DebugSol.Generated.Context.New(Meadow.JsonRpc.Client.IJsonRpcClient,Meadow.JsonRpc.Types.TransactionParams,System.Nullable{Meadow.Core.EthTypes.Address})">
+            <summary>
+            Deploys the contract.  <para/>Provides information about the current execution context, including the sender of the transaction and its data. While these are generally available via msg.sender and msg.data, they should not be accessed in such a direct manner, since when dealing with meta-transactions the account sending and paying for execution may not be the actual sender (as far as an application is concerned). This contract is only required for intermediate, library-like contracts. <para/>
+            </summary>
+            <param name="rpcClient">The RPC client to be used for this contract instance.</param>
+            <param name="defaultFromAccount">If null then the first account returned by eth_accounts will be used.</param>
+            <returns>An contract instance pointed at the deployed contract address.</returns>
+        </member>
+        <member name="P:Meadow.DebugSol.Generated.Context.FallbackFunction">
+            <summary>The contract fallback function. <para/></summary>
+        </member>
+        <member name="T:Meadow.DebugSol.Generated.Lock">
+            <summary>From file contracts/Lock.sol<para/></summary>
+        </member>
+        <member name="M:Meadow.DebugSol.Generated.Lock.Deploy(Meadow.Core.EthTypes.UInt256,Meadow.JsonRpc.Client.IJsonRpcClient,Meadow.JsonRpc.Types.TransactionParams,System.Nullable{Meadow.Core.EthTypes.Address})">
+            <summary>
+            Deploys the contract.  <para/>
+            </summary>
+            <param name="_unlockTime"><c>uint256</c></param>
+            <param name="rpcClient">The RPC client to be used for this contract instance.</param>
+            <param name="defaultFromAccount">If null then the first account returned by eth_accounts will be used.</param>
+            <returns>An contract instance pointed at the deployed contract address.</returns>
+        </member>
+        <member name="M:Meadow.DebugSol.Generated.Lock.New(Meadow.Core.EthTypes.UInt256,Meadow.JsonRpc.Client.IJsonRpcClient,Meadow.JsonRpc.Types.TransactionParams,System.Nullable{Meadow.Core.EthTypes.Address})">
+            <summary>
+            Deploys the contract.  <para/>
+            </summary>
+            <param name="_unlockTime"><c>uint256</c></param>
+            <param name="rpcClient">The RPC client to be used for this contract instance.</param>
+            <param name="defaultFromAccount">If null then the first account returned by eth_accounts will be used.</param>
+            <returns>An contract instance pointed at the deployed contract address.</returns>
+        </member>
+        <member name="M:Meadow.DebugSol.Generated.Lock.owner">
+            <summary>Returns the address of the current owner. <para/>Returns <c>address</c></summary>
+        </member>
+        <member name="M:Meadow.DebugSol.Generated.Lock.renounceOwnership">
+            <summary>Leaves the contract without owner. It will not be possible to call `onlyOwner` functions. Can only be called by the current owner. NOTE: Renouncing ownership will leave the contract without an owner, thereby disabling any functionality that is only available to the owner.</summary>
+        </member>
+        <member name="M:Meadow.DebugSol.Generated.Lock.transferOwnership(Meadow.Core.EthTypes.Address)">
+            <summary>Transfers ownership of the contract to a new account (`newOwner`). Can only be called by the current owner.</summary>
+            <param name="newOwner"><c>address</c></param>
+        </member>
+        <member name="M:Meadow.DebugSol.Generated.Lock.unlockTime">
+            <summary> <para/>Returns <c>uint256</c></summary>
+        </member>
+        <member name="M:Meadow.DebugSol.Generated.Lock.withdraw">
+            <summary></summary>
+        </member>
+        <member name="P:Meadow.DebugSol.Generated.Lock.FallbackFunction">
+            <summary>The contract fallback function. <para/></summary>
+        </member>
+        <member name="T:Meadow.DebugSol.Generated.DbgEntry">
+            <summary>From file Top.t.sol<para/></summary>
+        </member>
+        <member name="M:Meadow.DebugSol.Generated.DbgEntry.Deploy(Meadow.JsonRpc.Client.IJsonRpcClient,Meadow.JsonRpc.Types.TransactionParams,System.Nullable{Meadow.Core.EthTypes.Address})">
+            <summary>
+            Deploys the contract.  <para/>
+            </summary>
+            <param name="rpcClient">The RPC client to be used for this contract instance.</param>
+            <param name="defaultFromAccount">If null then the first account returned by eth_accounts will be used.</param>
+            <returns>An contract instance pointed at the deployed contract address.</returns>
+        </member>
+        <member name="M:Meadow.DebugSol.Generated.DbgEntry.New(Meadow.JsonRpc.Client.IJsonRpcClient,Meadow.JsonRpc.Types.TransactionParams,System.Nullable{Meadow.Core.EthTypes.Address})">
+            <summary>
+            Deploys the contract.  <para/>
+            </summary>
+            <param name="rpcClient">The RPC client to be used for this contract instance.</param>
+            <param name="defaultFromAccount">If null then the first account returned by eth_accounts will be used.</param>
+            <returns>An contract instance pointed at the deployed contract address.</returns>
+        </member>
+        <member name="P:Meadow.DebugSol.Generated.DbgEntry.FallbackFunction">
+            <summary>The contract fallback function. <para/></summary>
+        </member>
+    </members>
+</doc>
