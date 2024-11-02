@@ -66,7 +66,7 @@ contract ArbitrageBot is FlashLoanSimpleReceiverBase, Ownable {
         // emit LogString("In Test:", "test");
         // console.log("Test Test Test");
 
-        return "TeHey";
+        return "Test Test NEW NEW Test Test Hey Hey";
     }
 
     // Add error handling for the contract
