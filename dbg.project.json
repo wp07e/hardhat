@@ -1,6 +1,6 @@
 {
     "contractsDir": "contracts-dbg",
-    "selectedContract": "Arbitrage",
+    "selectedContract": "ArbitrageBot",
     "autoOpen": true,
     "breakOnEntry": false,
     "symbols": {

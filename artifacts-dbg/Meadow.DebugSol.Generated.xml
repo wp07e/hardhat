@@ -935,7 +935,7 @@
             <summary>The contract fallback function. <para/></summary>
         </member>
         <member name="T:Meadow.DebugSol.Generated.DbgEntry">
-            <summary>From file Arbitrage.t.sol<para/></summary>
+            <summary>From file ArbitrageBot.t.sol<para/></summary>
         </member>
         <member name="M:Meadow.DebugSol.Generated.DbgEntry.Deploy(Meadow.JsonRpc.Client.IJsonRpcClient,Meadow.JsonRpc.Types.TransactionParams,System.Nullable{Meadow.Core.EthTypes.Address})">
             <summary>
@@ -957,7 +957,7 @@
             <summary>The contract fallback function. <para/></summary>
         </member>
         <member name="T:Meadow.DebugSol.Generated.ArbitrageBot">
-            <summary>From file contracts/Arbitrage.sol<para/> <para/>Notice: Notes ----------------------------------------------------------------------------------------- Mainnet:         "0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e" Sepolia TestNet: "0x012bAC54348C0E635dCAc9D5FB99f06F24136C9A" ----------------------------------------------------------------------------------------- 1. To swap testnet coins, go to https://app.uniswap.org/, settings, change to test mode.</summary>
+            <summary>From file contracts/ArbitrageBot.sol<para/> <para/>Notice: Notes ----------------------------------------------------------------------------------------- Mainnet:         "0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e" Sepolia TestNet: "0x012bAC54348C0E635dCAc9D5FB99f06F24136C9A" ----------------------------------------------------------------------------------------- 1. To swap testnet coins, go to https://app.uniswap.org/, settings, change to test mode.</summary>
         </member>
         <member name="M:Meadow.DebugSol.Generated.ArbitrageBot.Deploy(Meadow.Core.EthTypes.Address,Meadow.JsonRpc.Client.IJsonRpcClient,Meadow.JsonRpc.Types.TransactionParams,System.Nullable{Meadow.Core.EthTypes.Address})">
             <summary>
@@ -990,6 +990,21 @@
             <param name="premium"><c>uint256</c>: The fee of the flash-borrowed asset</param>
             <param name="initiator"><c>address</c>: The address of the flashloan initiator</param>
             <param name="@params"><c>bytes</c>: The byte-encoded params passed when initiating the flashloan</param>
+        </member>
+        <member name="M:Meadow.DebugSol.Generated.ArbitrageBot.getContractBalance">
+            <summary> <para/>Returns <c>uint256</c></summary>
+        </member>
+        <member name="M:Meadow.DebugSol.Generated.ArbitrageBot.getNewString">
+            <summary> <para/>Returns <c>string</c></summary>
+        </member>
+        <member name="M:Meadow.DebugSol.Generated.ArbitrageBot.getNewString4">
+            <summary> <para/>Returns <c>string</c></summary>
+        </member>
+        <member name="M:Meadow.DebugSol.Generated.ArbitrageBot.getPoolAddress">
+            <summary> <para/>Returns <c>address</c></summary>
+        </member>
+        <member name="M:Meadow.DebugSol.Generated.ArbitrageBot.getString">
+            <summary> <para/>Returns <c>string</c></summary>
         </member>
         <member name="M:Meadow.DebugSol.Generated.ArbitrageBot.owner">
             <summary>Returns the address of the current owner. <para/>Returns <c>address</c></summary>
