@@ -12,7 +12,7 @@ async function main() {
      * 1. npx hardhat clean
      * 2. (make sure forked network is deployed via 'npx hardhat node')
      * 3. npx hardhat ignition deploy ignition/modules/ArbirageBot.ts --network localhost
-     * 4. npx hardhat run scripts/debugLocalDeployArbitrageBot.ts (or 'F5' to debug)
+     * 4. npx hardhat run scripts/debugLocalDeployArbitrageBot.ts --network localhost (or 'F5' to debug)
      */
 
      // Check current fork block number
