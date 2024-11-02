@@ -1,5 +1,5 @@
 {
-  "name": "hardhat",
+  "name": "hardhat_local",
   "version": "1.0.0",
   "description": "Work with smart contracts",
   "main": "index.js",
@@ -17,6 +17,8 @@
     "hardhat": "^2.22.15"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^4.9.6"
+    "@aave/core-v3": "^1.19.3",
+    "@openzeppelin/contracts": "^4.9.6",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0"
   }
 }
