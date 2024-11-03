@@ -6,6 +6,8 @@ node_modules
 /artifacts
 /artifacts-dbg
 /contracts-dbg
+/.vscode
+dbg.project.json
 
 # TypeChain files
 /typechain
